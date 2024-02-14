@@ -52,7 +52,6 @@ class StarWarsCharacter {
   }
   getInfoAsList() {
     const properties = [
-      `Name: ${this.name}`,
       `Birth Year: ${this.birthYear}`,
       `Eye Color: ${this.eyeColor}`,
       `Gender: ${this.gender}`,

@@ -105,6 +105,7 @@ function charDetails(index) {
       }
     });
   }
+  document.querySelector(".char-list-name").innerHTML = chars[index].name;
 }
 function activeTab(i) {
   let li = charList.getElementsByTagName("li");
