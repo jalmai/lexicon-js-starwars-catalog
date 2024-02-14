@@ -89,6 +89,8 @@ function charDetails(index) {
   let planetDetails = document.querySelector(".planet-detail");
   planetDetails.innerHTML = "";
   planetDetails.appendChild(planInfo);
+  document.querySelector(".planet-list-name").innerHTML =
+    planets[currPlanet - 1].name;
   if (chars[index].species === "Human") {
     // TODO: Move to variable
     charInfo.querySelector("#species").innerHTML = "Human";
